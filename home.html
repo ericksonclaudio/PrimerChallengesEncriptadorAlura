@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" type="text/css" href="css/home-estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="icon" href="img/candado.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="div-background">
+
+        <section class="sec-logo">
+
+            <img src="img/Logo.svg" alt="logo de Alura" class="class-logo">
+        </section>
+        <section class="sec-titulo">
+
+            <p>Encriptador APP</p>
+
+        </section>
+
+        <section class="sec-izquierda">
+            <div class="div-texto-entrada">
+                <textarea name="texto-entrada" id="texto-entrada" class="caja-entrada" rows="7" columns="20"
+                    placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+
+            <div class="div-caption-solo-letras-min">
+                <img src="img/advertise.svg" alt="caption">
+                <span id="letras-minusculas"> Solo letras minúsculas y sin acentos</span>
+            </div>
+
+
+            <div class="div-boton">
+                <button id="encriptar-texto" class="boton-encriptar">
+                    Encriptar
+                </button>
+
+                <button id="descencriptar-texto" class="boton-desencriptar">
+                    Descencriptar
+                </button>
+            </div>
+
+        </section>
+
+        <section class="sec-derecha">
+
+
+            <div class="div-texto-salida">
+                <textarea name="texto-salida" id="texto-salida" class="texto-salida" rows="7" columns="20"
+                    readonly></textarea>
+
+                <img src="img/Muñeco.svg" id="muñeco" class="mune-invisible" alt="muñeco">
+            </div>
+            <div class="div-copiar">
+                <button type="button" id="copiar-texto" title="Copiar texto desencriptado " input type="image"
+                    class="boton-copiar-texto"><img src="img/boton-copiar.png" height="50" width="50"></button>
+
+            </div>
+        </section>
+        <script src="js/home-script.js"></script>
+        <footer class="footer">
+            <address clas="address">
+
+                <a href="https://www.linkedin.com/in/erickson-otaño" target="_blank"><img src="img/linkedin.png"
+                        class="img-linkedin" alt="linkedin"></a>
+                <a href="https://github.com/ericksonclaudio/" target="_blank"><img src="img/github.png" alt="GiHub"
+                        class="img-github"></a>
+                <p>Por: Erickson Otaño - 2022 V 1.0</p>
+            </address>
+        </footer>
+    </div>
+</body>
+
+</html>

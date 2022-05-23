@@ -1,0 +1,410 @@
+body {
+	background: #383a3c;
+}
+
+.div-background {
+	position: absolute;
+	background: #F3F5FC;
+	border-radius: 32px;
+	width: 80%;
+	left: 10%;
+}
+
+.sec-titulo {
+	position: relative;
+	left: 50px;
+	width: 80%;
+	height: 40px;
+	text-align: center;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 90%;
+	color: #495057;
+}
+
+.sec-logo {
+	position: relative;
+	top: 50px;
+	left: 30px;
+}
+
+.class-logo {
+	position: relative;
+	width: 100px;
+	height: 38px;
+	left: 0px;
+}
+
+
+.sec-izquierda {
+	position: relative;
+	display: inline-block;
+	width: 40%;
+	left: 20px;
+	top: 50px;
+}
+
+.div-texto-entrada {
+	position: relative;
+	display: block;
+	width: 60%;
+	left: 140px;
+}
+
+.caja-entrada {
+
+	position: relative;
+
+	width: 100%;
+	height: 100%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+	resize: none;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+.div-caption-solo-letras-min {
+
+	position: relative;
+	display: block;
+	/*top: 851px;*/
+	/*right: 971px;*/
+	/*bottom: 155px;*/
+	/*left: 264px;*/
+	left: 140px;
+	width: 60%;
+	margin-top: 35px;
+	bottom: 20px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	color: #495057;
+
+}
+
+.div-boton {
+	position: relative;
+	/*bottom: 72px;*/
+	left: 140px;
+}
+
+
+.boton-encriptar {
+
+	position: relative;
+	display: inline-block;
+
+	padding: 24px;
+	gap: 8px;
+
+	width: 180px;
+	height: 60px;
+
+	background-color: #0A3871;
+	border: 24px #0A3871;
+
+	border-radius: 24px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #FFFFFF;
+	vertical-align: middle;
+}
+
+.boton-desencriptar {
+
+	position: relative;
+	display: inline-block;
+
+	left: 24px;
+	padding: 24px;
+
+
+	width: 180px;
+	height: 60px;
+
+	background-color: #D8DFE8;
+	border: 1px solid #0A3871;
+
+	border-radius: 24px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #0A3871;
+	vertical-align: middle;
+}
+
+.boton-encriptar:hover {
+
+	transform: scale(1.1);
+}
+
+.boton-desencriptar:hover {
+	transform: scale(1.1);
+}
+
+.boton-copiar-texto:hover {
+	transform: scale(1.1);
+}
+
+.sec-derecha {
+
+	position: relative;
+	display: inline-block;
+	width: 35%;
+	top: 40px;
+	height: 544px;
+	left: 200px;
+	border-radius: 32px;
+	background: #FFFFFF;
+	box-shadow: 0px 34px 42px -9px rgba(0, 0, 0, 0.18);
+
+}
+
+.div-texto-salida {
+	position: relative;
+	margin-top: 32px;
+	margin-left: 32px;
+	margin-right: 32px;
+	height: 344px;
+}
+
+.texto-salida {
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 140%;
+
+	position: relative;
+
+	width: 100%;
+	height: 100%;
+
+	resize: none;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #495057;
+}
+
+
+#muñeco {
+
+	position: absolute;
+
+	top: 43px;
+	/*	top: 243px;*/
+	bottom: 397px;
+	left: 32px;
+	right: 32px;
+	width: 250px;
+	height: 250px;
+
+}
+
+.div-copiar {
+	position: relative;
+	display: block;
+
+	left: 132px;
+	right: 32px;
+
+
+}
+
+.boton-copiar-texto {
+	position: relative;
+	display: block;
+	top: 20px;
+	left: 32px;
+
+
+	/*padding: 24px;
+	gap: 8px;
+	border-radius: 24px;
+	border: 1px solid #0A3871;
+	*/
+	/*width: 200px;
+	height: 60px;*/
+	background: none;
+	border: none;
+	text-align: center;
+
+
+}
+
+.invisible {
+	display: none;
+}
+
+.footer {
+	position: relative;
+	display: block;
+	top: 10px;
+	padding: 10px;
+	margin-top: 7px;
+	text-align: center;
+	width: 940px;
+}
+
+
+.img-linkedin {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+
+}
+
+.img-github {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+	body,
+	.sec-titulo,
+	.div-texto-entrada,
+	.caja-entrada,
+	.div-caption-solo-letras-min,
+	.div-boton {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.class-logo {
+		top: 0px;
+		left: 0px;
+		position: relative;
+		width: 20px;
+		height: 30px;
+
+	}
+
+	.div-boton {
+		width: 100%;
+		display: block;
+		left: 0px;
+		top: 0px;
+		bottom: 0px;
+	}
+
+
+
+	body {
+		width: 100%;
+		min-height: 100vh;
+		max-width: 400px;
+		background-color: #F3F5FC;
+		margin: 0 auto;
+	}
+
+	.div-copiar {
+
+		width: 100%;
+		display: block;
+		left: 0px;
+		top: 10px;
+		bottom: 0px;
+
+
+	}
+
+	.sec-izquierda,
+	.sec-derecha,
+	.footer,
+	.div-texto-entrada,
+	.div-caption-solo-letras-min,
+	.boton-desencriptar,
+	.boton-encriptar,
+	.boton-copiar-texto {
+		width: 100%;
+		display: block;
+		left: 0px;
+		top: 0px;
+		bottom: 0px;
+	}
+}
+
+
+
+@media only screen and (max-width: 820px) {
+
+	.class-logo {
+		top: 0px;
+		left: 0px;
+		position: relative;
+		width: 20px;
+		height: 30px;
+
+	}
+
+	.div-boton {
+		width: 100%;
+		display: block;
+		left: 0px;
+		top: 0px;
+		bottom: 0px;
+	}
+
+
+
+	body {
+		width: 100%;
+		min-height: 100vh;
+		max-width: 400px;
+		background-color: #F3F5FC;
+		margin: 0 auto;
+	}
+
+	.div-copiar {
+
+		width: 100%;
+		display: block;
+		left: 0px;
+		top: 10px;
+		bottom: 0px;
+
+	}
+
+	.sec-izquierda,
+	.sec-derecha,
+	.footer,
+	.div-background,
+	.div-texto-entrada,
+	.div-caption-solo-letras-min,
+	.boton-desencriptar,
+	.boton-encriptar,
+	.boton-copiar-texto {
+		width: 100%;
+		display: block;
+		left: 0px;
+		top: 0px;
+		bottom: 0px;
+	}
+}
